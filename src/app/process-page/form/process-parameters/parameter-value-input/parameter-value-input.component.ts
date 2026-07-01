@@ -19,6 +19,7 @@ import { DateValueInputComponent } from './date-value-input/date-value-input.com
 import { FileValueInputComponent } from './file-value-input/file-value-input.component';
 import { IntegerValueInputComponent } from './number-value-input/integer-value-input.component';
 import { StringValueInputComponent } from './string-value-input/string-value-input.component';
+import { SelectValueInputComponent } from './select-value-input/select-value-input.component';
 
 /**
  * Component that renders the correct parameter value input based the script parameter's type
@@ -35,6 +36,7 @@ import { StringValueInputComponent } from './string-value-input/string-value-inp
     DateValueInputComponent,
     FileValueInputComponent,
     IntegerValueInputComponent,
+    SelectValueInputComponent,
     StringValueInputComponent,
   ],
 })
@@ -59,4 +61,7 @@ export class ParameterValueInputComponent {
    * The available script parameter types
    */
   parameterTypes = ScriptParameterType;
+
+  @Input() allowedValues: string[] = [];
+
 }

@@ -1,22 +1,58 @@
 <div>
-  @switch (parameter?.type) {
-    @case (parameterTypes.STRING) {
-      <ds-string-value-input [initialValue]="initialValue" (updateValue)="updateValue.emit($event)" [index]="index"></ds-string-value-input>
-    }
-    @case (parameterTypes.INTEGER) {
-      <ds-integer-value-input [initialValue]="initialValue" (updateValue)="updateValue.emit($event)" [index]="index"></ds-integer-value-input>
-    }
-    @case (parameterTypes.OUTPUT) {
-      <ds-string-value-input [initialValue]="initialValue" (updateValue)="updateValue.emit($event)" [index]="index"></ds-string-value-input>
-    }
-    @case (parameterTypes.DATE) {
-      <ds-date-value-input [initialValue]="initialValue" (updateValue)="updateValue.emit($event)" [index]="index"></ds-date-value-input>
-    }
-    @case (parameterTypes.FILE) {
-      <ds-file-value-input (updateValue)="updateValue.emit($event)" [index]="index"></ds-file-value-input>
-    }
-    @case (parameterTypes.BOOLEAN) {
-      <ds-boolean-value-input (updateValue)="updateValue.emit($event)" [index]="index"></ds-boolean-value-input>
+  @if (parameter?.allowedValues?.length > 0) {
+    <ds-select-value-input
+      [initialValue]="initialValue"
+      [allowedValues]="parameter.allowedValues"
+      (updateValue)="updateValue.emit($event)"
+      [index]="index">
+    </ds-select-value-input>
+  } @else {
+    @switch (parameter?.type) {
+      @case (parameterTypes.STRING) {
+        <ds-string-value-input
+          [initialValue]="initialValue"
+          (updateValue)="updateValue.emit($event)"
+          [index]="index">
+        </ds-string-value-input>
+      }
+
+      @case (parameterTypes.INTEGER) {
+        <ds-integer-value-input
+          [initialValue]="initialValue"
+          (updateValue)="updateValue.emit($event)"
+          [index]="index">
+        </ds-integer-value-input>
+      }
+
+      @case (parameterTypes.OUTPUT) {
+        <ds-string-value-input
+          [initialValue]="initialValue"
+          (updateValue)="updateValue.emit($event)"
+          [index]="index">
+        </ds-string-value-input>
+      }
+
+      @case (parameterTypes.DATE) {
+        <ds-date-value-input
+          [initialValue]="initialValue"
+          (updateValue)="updateValue.emit($event)"
+          [index]="index">
+        </ds-date-value-input>
+      }
+
+      @case (parameterTypes.FILE) {
+        <ds-file-value-input
+          (updateValue)="updateValue.emit($event)"
+          [index]="index">
+        </ds-file-value-input>
+      }
+
+      @case (parameterTypes.BOOLEAN) {
+        <ds-boolean-value-input
+          (updateValue)="updateValue.emit($event)"
+          [index]="index">
+        </ds-boolean-value-input>
+      }
     }
   }
 </div>

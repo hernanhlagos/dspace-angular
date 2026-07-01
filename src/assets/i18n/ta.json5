@@ -6609,6 +6609,8 @@
 
   // "process.new.parameter.label": "Parameter value",
   "process.new.parameter.label": "அளவுரு மதிப்பு",
+  // "process.new.parameter.select.placeholder": "Select a value",
+  "process.new.parameter.select.placeholder": "ஒரு மதிப்பைத் தேர்ந்தெடுக்கவும்",
 
   // "process.new.cancel": "Cancel",
   "process.new.cancel": "ரத்து செய்",

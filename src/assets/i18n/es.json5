@@ -6512,6 +6512,8 @@
 
   // "process.new.parameter.label": "Parameter value",
   "process.new.parameter.label": "Valor del parámetro",
+  // "process.new.parameter.select.placeholder": "Select a value",
+  "process.new.parameter.select.placeholder": "Seleccionar un valor",
 
   // "process.new.cancel": "Cancel",
   "process.new.cancel": "Cancelar",

@@ -1,0 +1,30 @@
+<select
+  [attr.aria-label]="'process.new.parameter.label' | translate"
+  required
+  #select="ngModel"
+  name="select-value-{{index}}"
+  class="form-control"
+  id="select-value-{{index}}"
+  [ngModel]="value"
+  (ngModelChange)="setValue($event)">
+
+  <option [ngValue]="undefined" disabled>
+    {{ 'process.new.parameter.select.placeholder' | translate }}
+  </option>
+
+  @for (allowedValue of allowedValues; track allowedValue) {
+    <option [ngValue]="allowedValue">
+      {{ allowedValue }}
+    </option>
+  }
+</select>
+
+@if (select.invalid && (select.dirty || select.touched)) {
+  <div class="alert alert-danger validation-error mb-0">
+    @if (select.errors?.required) {
+      <div>
+        {{ 'process.new.parameter.string.required' | translate }}
+      </div>
+    }
+  </div>
+}

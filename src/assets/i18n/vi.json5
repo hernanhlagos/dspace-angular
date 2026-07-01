@@ -7057,6 +7057,8 @@
   // "process.new.parameter.label": "Parameter value",
   // TODO New key - Add a translation
   "process.new.parameter.label": "Parameter value",
+  // "process.new.parameter.select.placeholder": "Select a value",
+  "process.new.parameter.select.placeholder": "Chọn một giá trị",
 
   // "process.new.cancel": "Cancel",
   "process.new.cancel": "Hủy",

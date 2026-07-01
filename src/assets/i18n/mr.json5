@@ -6611,6 +6611,8 @@
 
   // "process.new.parameter.label": "Parameter value",
   "process.new.parameter.label": "पॅरामीटर मूल्य",
+  // "process.new.parameter.select.placeholder": "Select a value",
+  "process.new.parameter.select.placeholder": "मूल्य निवडा",
 
   // "process.new.cancel": "Cancel",
   "process.new.cancel": "रद्द करा",

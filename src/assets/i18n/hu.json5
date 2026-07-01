@@ -6320,6 +6320,8 @@
 
   // "process.new.parameter.label": "Parameter value",
   "process.new.parameter.label": "Paraméterérték",
+  // "process.new.parameter.select.placeholder": "Select a value",
+  "process.new.parameter.select.placeholder": "Válasszon értéket",
 
   // "process.new.cancel": "Cancel",
   "process.new.cancel": "Mégse",

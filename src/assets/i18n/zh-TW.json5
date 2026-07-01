@@ -6683,6 +6683,8 @@
 
   // "process.new.parameter.label": "Parameter value",
   "process.new.parameter.label": "參數值",
+  // "process.new.parameter.select.placeholder": "Select a value",
+  "process.new.parameter.select.placeholder": "選擇一個值",
 
   // "process.new.cancel": "Cancel",
   "process.new.cancel": "取消",

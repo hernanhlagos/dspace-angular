@@ -6572,6 +6572,8 @@
 
   // "process.new.parameter.label": "Parameter value",
   "process.new.parameter.label": "പാരാമീറ്റർ മൂല്യം",
+  // "process.new.parameter.select.placeholder": "Select a value",
+  "process.new.parameter.select.placeholder": "ഒരു മൂല്യം തിരഞ്ഞെടുക്കുക",
 
   // "process.new.cancel": "Cancel",
   "process.new.cancel": "റദ്ദാക്കുക",

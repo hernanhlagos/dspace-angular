@@ -6592,6 +6592,8 @@
 
   // "process.new.parameter.label": "Parameter value",
   "process.new.parameter.label": "Значение параметра",
+  // "process.new.parameter.select.placeholder": "Select a value",
+  "process.new.parameter.select.placeholder": "Выберите значение",
 
   // "process.new.cancel": "Cancel",
   "process.new.cancel": "Отмена",

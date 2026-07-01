@@ -6631,6 +6631,8 @@
 
   // "process.new.parameter.label": "Parameter value",
   "process.new.parameter.label": "పారామీటర్ విలువ",
+  // "process.new.parameter.select.placeholder": "Select a value",
+  "process.new.parameter.select.placeholder": "విలువను ఎంచుకోండి",
 
   // "process.new.cancel": "Cancel",
   "process.new.cancel": "రద్దు చేయండి",

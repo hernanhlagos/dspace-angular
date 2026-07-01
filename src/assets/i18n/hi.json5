@@ -6626,6 +6626,8 @@
 
   // "process.new.parameter.label": "Parameter value",
   "process.new.parameter.label": "पैरामीटर मान",
+  // "process.new.parameter.select.placeholder": "Select a value",
+  "process.new.parameter.select.placeholder": "मान चुनें",
 
   // "process.new.cancel": "Cancel",
   "process.new.cancel": "रद्द करें",

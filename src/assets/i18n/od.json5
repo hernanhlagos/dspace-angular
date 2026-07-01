@@ -6573,6 +6573,8 @@
 
   // "process.new.parameter.label": "Parameter value",
   "process.new.parameter.label": "ପାରାମିଟର୍ ମୂଲ୍ୟ",
+  // "process.new.parameter.select.placeholder": "Select a value",
+  "process.new.parameter.select.placeholder": "ଏକ ମୂଲ୍ୟ ଚୟନ କରନ୍ତୁ",
 
   // "process.new.cancel": "Cancel",
   "process.new.cancel": "ବାତିଲ୍ କରନ୍ତୁ",

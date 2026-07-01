@@ -6458,6 +6458,8 @@
 
   // "process.new.parameter.label": "Parameter value",
   "process.new.parameter.label": "قيمة المتغير",
+  // "process.new.parameter.select.placeholder": "Select a value",
+  "process.new.parameter.select.placeholder": "تحديد قيمة",
 
   // "process.new.cancel": "Cancel",
   "process.new.cancel": "إلغاء",

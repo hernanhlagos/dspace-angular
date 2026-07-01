@@ -6616,6 +6616,8 @@
 
   // "process.new.parameter.label": "Parameter value",
   "process.new.parameter.label": "પરિમાણ મૂલ્ય",
+  // "process.new.parameter.select.placeholder": "Select a value",
+  "process.new.parameter.select.placeholder": "મૂલ્ય પસંદ કરો",
 
   // "process.new.cancel": "Cancel",
   "process.new.cancel": "રદ કરો",

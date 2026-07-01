@@ -28,4 +28,11 @@ export class ScriptParameter {
    * Whether or not this parameter is mandatory
    */
   mandatory: boolean;
+
+  /**
+   * List of allowed values for this parameter.
+   * When present, the parameter can be rendered as a select input instead of a free-text input.
+   */
+  allowedValues?: string[];
+
 }

@@ -6568,6 +6568,8 @@
 
   // "process.new.parameter.label": "Parameter value",
   "process.new.parameter.label": "প্যারামিটার মান",
+  // "process.new.parameter.select.placeholder": "Select a value",
+  "process.new.parameter.select.placeholder": "একটি মান নির্বাচন করুন",
 
   // "process.new.cancel": "Cancel",
   "process.new.cancel": "বাতিল করুন",
